@@ -2,6 +2,12 @@
 
 This is a CI/CD project for dockerizing a web application. Nginx serves a simple HTML page from a Docker container, and Jenkins builds the image and publishes it to Docker Hub as `shreyanthatikonda/webapp:latest`.
 
+## Live website
+
+Open [Dockerized Web App](https://shreyanthatikonda.github.io/DevOps/) from any internet-connected device. You do not need to run Docker locally to view it.
+
+GitHub Pages serves the static HTML page. It does not run the Docker container or the Jenkins pipeline.
+
 ## Project files
 
 - `index.html`: the web page with a **Dockerized Web App** heading.
